@@ -358,7 +358,11 @@ transform: rotate(-45deg);
 
     .feed{
         margin-top: 50px;
-        
+        overflow: hidden;
+    }
+
+    .feed .title{
+        margin-right: 85px
     }
 
     .feedmore{
@@ -391,10 +395,6 @@ transform: rotate(-45deg);
         grid-area: bild;
     }
 
-    .text{
-
-    }
-
     .text .title{
         font-size: 25px;
     }
@@ -410,7 +410,7 @@ transform: rotate(-45deg);
         grid-area: bild;
         margin-right: 615px;
         overflow:hidden;
-
+        margin-bottom: 150px
     }
 
     .grupp{
@@ -433,13 +433,13 @@ transform: rotate(-45deg);
 
     .lists{
         grid-area: feed;
-
+        overflow: hidden;
     }
 
     .toplist{
         overflow:hidden;
         margin-left: 160px;
-        margin-top: 10px;
+        margin-top: 40px;
     }
     
     .musicmore{
